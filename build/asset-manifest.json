@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.0bc27ee5.css",
+    "main.js": "/static/js/main.b1ada526.js",
+    "static/media/palmTrees.JPG": "/static/media/palmTrees.a2e8d70ce04a5b07f770.JPG",
+    "static/media/palmTreez.JPG": "/static/media/palmTreez.d5f157281e459c12d70c.JPG",
+    "static/media/engine.JPG": "/static/media/engine.27315042cb2d97c275f6.JPG",
+    "static/media/papaya.JPG": "/static/media/papaya.9fd29089d1f5eb2ee7ef.JPG",
+    "static/media/farm.jpg": "/static/media/farm.5281cc2afb72e4896ca5.jpg",
+    "static/media/vitalGrower.JPG": "/static/media/vitalGrower.3797a750992b1a13c85d.JPG",
+    "static/media/topLayers.JPG": "/static/media/topLayers.a1e67a4be0f3f477d8fb.JPG",
+    "static/media/topStarter.JPG": "/static/media/topStarter.1bf13b32381ba78950c9.JPG",
+    "static/media/topFinisher.JPG": "/static/media/topFinisher.57f82d1ef4dbd7fcc688.JPG",
+    "static/media/engine2.JPG": "/static/media/engine2.52d95e878ed2504957e8.JPG",
+    "static/media/layers.jpg": "/static/media/layers.d765dbb2a08623d18bb0.jpg",
+    "static/media/turkey.jpg": "/static/media/turkey.ecffca8a9c06e0ad6c83.jpg",
+    "static/media/chickenss.jpg": "/static/media/chickenss.469aa4ac10f654640abb.jpg",
+    "static/media/eggs.jpg": "/static/media/eggs.f7b50b306e843938ea0d.jpg",
+    "static/media/spinner.gif": "/static/media/spinner.bb64a4cfcdacab87bb6b.gif",
+    "static/media/palmfruit.jpg": "/static/media/palmfruit.5b34a216df0d9f71ea00.jpg",
+    "static/media/logo.png": "/static/media/logo.aa70939646ce18c1703d.png",
+    "index.html": "/index.html",
+    "main.0bc27ee5.css.map": "/static/css/main.0bc27ee5.css.map",
+    "main.b1ada526.js.map": "/static/js/main.b1ada526.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0bc27ee5.css",
+    "static/js/main.b1ada526.js"
+  ]
+}
