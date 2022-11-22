@@ -18,7 +18,8 @@ const s3 = new aws.S3();
 const upload = multer({
   storage: multerS3({
     s3,
-    bucket: process.env.AWS_BUCKET_NAME_S3,
+    // bucket: process.env.AWS_BUCKET_NAME_S3,
+    bucket: "somadina-test-app-bucket",
     shouldTransform: function (req, file, cb) {
       cb(null, /^image/i.test(file.mimetype));
     },
