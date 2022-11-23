@@ -15,11 +15,11 @@ const mongoSanitize = require("express-mongo-sanitize");
 const xss = require("xss-clean");
 const hpp = require("hpp");
 const rateLimit = require("express-rate-limit");
-// const enforce = require("express-sslify");
+const enforce = require("express-sslify");
 
 const app = express();
 
-// app.use(enforce.HTTPS());
+app.use(enforce.HTTPS());
 
 app.use(
   helmet.contentSecurityPolicy({
@@ -60,7 +60,7 @@ app.use(hpp());
 app.use(compression());
 
 // Serving static files
-app.use(express.static(path.join(__dirname, "build")));
+app.use(express.static(path.join(__dirname, "/build")));
 
 app.use("/api/v1/reviews", reviewRouter);
 app.use("/api/v1/products", productsRouter);
