@@ -15,11 +15,11 @@ const mongoSanitize = require("express-mongo-sanitize");
 const xss = require("xss-clean");
 const hpp = require("hpp");
 const rateLimit = require("express-rate-limit");
-const enforce = require("express-sslify");
+// const enforce = require("express-sslify");
 
 const app = express();
 
-app.use(enforce.HTTPS());
+// app.use(enforce.HTTPS());
 
 app.use(
   helmet.contentSecurityPolicy({
