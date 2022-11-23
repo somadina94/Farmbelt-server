@@ -60,7 +60,7 @@ app.use(hpp());
 app.use(compression());
 
 // Serving static files
-app.use(express.static(path.join(__dirname, "/build")));
+app.use(express.static(path.join(__dirname, "build")));
 
 app.use("/api/v1/reviews", reviewRouter);
 app.use("/api/v1/products", productsRouter);
